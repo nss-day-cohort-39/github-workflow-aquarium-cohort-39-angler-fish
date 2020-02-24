@@ -49,6 +49,14 @@ const initializeDetailButtonEvents = () => {
             theDialog.showModal()
         }
     )
+
+    document.querySelector("#button--quint").addEventListener(
+        "click",
+        theClickEvent => {
+            const theDialog = document.querySelector("#details--quint")
+            theDialog.showModal()
+        }
+    )
 }
 
 export default initializeDetailButtonEvents

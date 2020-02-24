@@ -59,19 +59,30 @@ const initializeDetailButtonEvents = () => {
             theDialog.showModal()
         }
     )
+    
+    // Show Dory's details when the button is clicked
+    document.querySelector("#button--angler").addEventListener(
+        "click",
+        theClickEvent => {
+            const theDialog = document.querySelector("#details--angler")
+            theDialog.showModal()
+        }
+    )
 
-<<<<<<< HEAD
+
      // Show Dolly's details when the button is clicked
-     document.querySelector("#button--dolly").addEventListener(
+    document.querySelector("#button--dolly").addEventListener(
         "click",
         theClickEvent => {
             const theDialog = document.querySelector("#details--dolly")
-=======
+            theDialog.showModal()
+        }
+     )
+     
     document.querySelector("#button--quint").addEventListener(
         "click",
         theClickEvent => {
             const theDialog = document.querySelector("#details--quint")
->>>>>>> dh-great-white-shark
             theDialog.showModal()
         }
     )

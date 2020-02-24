@@ -23,6 +23,16 @@ const initializeDetailButtonEvents = () => {
         }
     )
 
+ // Show Goldfish's details when the button is clicked
+ document.querySelector("#button--gold").addEventListener(
+    "click",
+    theClickEvent => {
+        const theDialog = document.querySelector("#details--gold")
+        theDialog.showModal()
+    }
+)
+
+
     // Show Betty's details when the button is clicked
     document.querySelector("#button--betty").addEventListener(
         "click",
